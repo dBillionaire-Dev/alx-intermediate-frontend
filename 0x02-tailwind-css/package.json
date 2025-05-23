@@ -1,7 +1,11 @@
 {
   "name": "0x02-tailwind-css",
   "version": "1.0.0",
+<<<<<<< HEAD
   "main": "index.js",
+=======
+  "main": "tailwind.config.js",
+>>>>>>> 5bc4debb1246245be66b9136c3793db74f590b3e
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
