@@ -1,0 +1,16 @@
+// Defining a mixin for horizontal margins
+@mixin horizontal-margin($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+// Using the mixin for the body tag
+body {
+  @include horizontal-margin(10px, 10px);
+}
+
+// Using the mixin for the div tag
+div {
+  @include horizontal-margin(15px, 15px);
+}
+
